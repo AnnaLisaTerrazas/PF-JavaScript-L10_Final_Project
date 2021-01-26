@@ -1,0 +1,44 @@
+<div *ngIf="todo">
+    <h3>{{todo.todoTitle}} details</h3>
+
+    <div>
+        {{todo.id}} {{todo.todoTitle}}<br>
+        {{todo.todoTime}}<br>
+        {{todo.todoDetails}}<br>
+        {{todo.todoNeed}}<br>
+        <button (click)="deleteTodo()">Delete</button>
+    </div>
+
+    <hr>
+    <h3>Update Todo</h3>
+    <form (ngSubmit)="updateTodo()">
+        <div>
+            <label>
+                Todo
+            </label>
+            <input type="text" name="todoTitle" placeholder="todo.todoTitle" required [(ngModel)]="todo.todoTitle" />
+        </div>
+        <div>
+            <label>
+                Time left
+            </label>
+            <input type="text" name="todoTime" placeholder="todo.todoTime" required [(ngModel)]="todo.todoTime" />
+        </div>
+        <div>
+            <label>
+                Details
+            </label>
+            <input type="text" name="todoDetails" placeholder="todo.todoDetails" required
+                [(ngModel)]="todo.todoDetails" />
+        </div>
+        <div>
+            <label>
+                Items needed
+            </label>
+            <input type="text" name="todoNeed" placeholder="todo.todoNeed" required [(ngModel)]="todo.todoNeed" />
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>

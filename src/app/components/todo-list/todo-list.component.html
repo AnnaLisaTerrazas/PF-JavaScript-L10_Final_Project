@@ -1,0 +1,10 @@
+<h3>Todo List</h3>
+<div class="todos" *ngFor="let todo of todos">
+    <ul>
+        <li>
+            <a routerLink="/todoId/{{todo.id}}"><span class="badge">{{todo.id}}. {{todo.todoTitle}} Time
+                    left:{{todo.todoTime}}</span></a>
+                    <button class="delete" (click)="onClickDelete(todo)">X</button>
+        </li>
+    </ul>
+</div>

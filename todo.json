@@ -1,0 +1,32 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "todoTitle": "Finish Final",
+      "todoTime": "16 hours",
+      "todoDetails": "enjoying this ",
+      "todoNeed": "zip file"
+    },
+    {
+      "id": 2,
+      "todoTitle": "Go to church",
+      "todoTime": "1 hour",
+      "todoDetails": "Praise the Lord",
+      "todoNeed": "time"
+    },
+    {
+      "id": 3,
+      "todoTitle": "Camping",
+      "todoTime": "24 hours",
+      "todoDetails": "enjoy life",
+      "todoNeed": "tent"
+    },
+    {
+      "id": 4,
+      "todoTitle": "Swimming",
+      "todoTime": "20 minutes",
+      "todoDetails": "ocean",
+      "todoNeed": "bathingsuit"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+.todos.badge{
+    display: inline-block;
+    padding: .5em .5em 0 .5em;
+    color: white;
+    background-color: teal;
+    line-height: 1.5em;
+    position: relative;
+    left: -1.5px;
+    top: -3px;
+    height: 2em;
+    margin-right: 1em;
+    border-radius: 6px 0 0 6px;
+}
+h3 {
+    text-align: center;
+}
+.todos li{
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: turquoise;
+    font-weight: medium;
+    margin: 1em;
+    padding: .5em 0;
+    height: 2em;
+    border: 2px solid darkslateblue;
+    border-radius: 15px;
+}
+.todos li:hover {
+    color:darkgray;
+    background-color: honeydew;
+    left: .2em;
+    }
+    .todos li.selected{
+        background-color: lavender;
+        color: white;
+    }
+    .todos li.selected:hover{
+        background-color: ivory;
+        color: white;
+    }
+    .delete {
+        background-color: red;
+        font-weight: bold;
+        float: right;
+        padding:5px 7.5px;
+        border: 2px solid black;
+        border-radius: 60%;
+    }
+    
